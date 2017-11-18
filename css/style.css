@@ -2,16 +2,28 @@
     .navbar-collapse{
         background: rgba(0, 0, 0, 0.6);
     }
+   
 }    
-
+div{
+      font-family: 'lato', arial;
+}
 body{
     /*background: currentColor;*/
     overflow-x: hidden;
+    box-sizing: border-box;
+   
 }
 #mynav{
     min-height: 60px;
     margin-bottom: 10px;
+
 }
+/* @font-face {
+    font-family: "BEBAS";
+    src: url("../font/BEBAS.ttf");
+}
+*/
+
 .navbar{
     margin-bottom: 0;
     border-radius: 0;
@@ -21,6 +33,7 @@ body{
     padding-top: 20px;
     color: white;
     text-transform: uppercase;
+
 }
 .nav-small{
     background: rgba(255,255,255,1);
@@ -37,7 +50,7 @@ body{
     align-items: center;
     margin-top: 0;
     color: white;
-    min-height: 600px;
+    min-height: 768px;
 }
 
 section{
@@ -89,6 +102,28 @@ section{
     justify-content: center;
     flex-direction: column;
 }
+.head{
+    font-size: 50px;
+}
+.head-3{
+
+    font-size: 24px;
+}
+.head-4{
+
+    font-size: 22px;
+}
+.data{
+    font-size: 17px;
+}
+.date{
+    margin-top: -5px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
 .schedule-nav{
     margin-top: 30px;
 }
@@ -120,23 +155,25 @@ h2{
     background: white;
 }
 .about-text{
-    min-height: 600px;
+    min-height: 500px;
     line-height: 2;
     margin-bottom: 50px;
 }
 #schedule{
     margin-top: 50px;
-    background: #5472ef;
+  /*  background: #5472ef;*/
+   background: linear-gradient(to right,#5C258D,#4389A2); 
     color: white;
 }
 #schedule li{
-    background: #3a53bb;
+    background: rgba(245,245,245,0.3);
 }
 #schedule a{
     color: white;
     font-size: 18px;
 }
 #schedule li a:hover{
+   background: rgba(245,245,245,0.6);
     color: black;
 }
 #schedule li.active a{
@@ -146,3 +183,27 @@ h2{
 #register{
     background:rgba(242, 242, 245, 0.57);
 }
+
+@media (max-width: 600px) {
+    .head{
+       font-size: 21px;
+    }
+    .date{
+        font-size: 18px;
+    }
+    .head-3{
+
+    font-size: 17px;
+    margin-top: -5px;
+}
+  .head-4{
+
+    font-size: 16px;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+.data{
+    font-size: 13px;
+}
+   
+} 
