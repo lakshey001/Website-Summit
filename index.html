@@ -3,11 +3,12 @@
         <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>B School Summit</title>
         <meta name="author" content="Kartik">
         <meta name="description" content="">
         <meta name="keywords" content="">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -25,16 +26,18 @@
                             <span class="icon-bar"></span>
                         </button>
                         <span class="navbar-brand">
-                            <a href="#home">LOGO</a>
+                            <a href="#home"><img src="images/logo.png" height="58px" width="70px" style="margin-top: -15px;"></a>
                         </span>
                     </div>
                     <div class="collapse navbar-collapse" id="mynav">
                         <ul class="nav navbar-nav navbar-right">
                             <li class="active"><a href="#home">Home</a></li>
                             <li><a href="#about">About</a></li>
+                              <li><a href="#highlights">Highlights</a></li>
                             <li><a href="#speakers">Speakers</a></li>
                             <li><a href="#schedule">Schedule</a></li>
                             <li><a href="#register">Register</a></li>
+                            <li><a href="#sponsors">Sponsors</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
@@ -42,8 +45,8 @@
             </nav>
             <section id="home">
                 <div class="text-center" id="homeScreen">
-                    <p class="head">GLOBAL BUSINESS SUMMIT 2018</p>
-                     <p  class="date">18-20 JANUARY 2018</p>
+                    <p class="head">GLOBAL&nbsp;&nbsp; BUSINESS&nbsp;&nbsp; SUMMIT&nbsp;&nbsp; 2018</p>
+                     <p  class="date">18-20 &nbsp;JANUARY &nbsp;2018</p>
                      <hr  width="30%">
                     <p class="head-3">Empowering the future business leaders </p> 
                     <p class="head-4">Learn from leaders the Harvard Way</p>
@@ -74,7 +77,15 @@
                         </div>
                 </div>
             </section>
-            <section id="speakers">
+            <section class="back-high" id="highlights">
+
+                <div>
+                    <h2 class="text-center" style="color: black;">Highlights</h2>
+                    <img src="images/highlight.png" class="img-responsive" style="z-index: 500;">
+
+            </section>
+            <section style="background: rgba(228, 228, 228, 0.55);
+" id="speakers">
                  <div class="text-center">
                     <h2>Speakers</h2>
                 </div>
@@ -125,7 +136,7 @@
                     <div class="col-sm-3 text-center">
                         <img src="https://source.unsplash.com/2z87shqF8Fo/200x200" alt="" class="img-responsive img-circle center-block">
                         <h4>Virat Kohli</h4>
-                        <h5>Captain Indian Cricket Team</h5>
+                        <h5 style="padding-bottom: 20px;">Captain Indian Cricket Team</h5>
                     </div>
                 </div>
             </section>
@@ -239,7 +250,8 @@
                 <div class="text-center">
                     <h2>Register</h2>
                 </div>
-                <div class="row">
+                
+                <div  class="row">
                     <form action="#" method="POST" id="register-form" class="col-sm-4 col-md-offset-5">
                         <input type="text" placeholder="Name" name="name">
                         <input type="email" placeholder="Work Email" name="email">
@@ -247,9 +259,73 @@
                         <input type="text" placeholder="Company name" name="company">
                         <button>Submit</button>
                     </form>
+
+                </div>
+                       <div class="text-center">*Rs 1000/- for first 500 registrations in each city. From 501 to 1000 registrations, it is Rs 2000/-. For the registrations after 1000, it is Rs 5000/- Maximum Number of participants: 2000. 
+</div>
+</div>
+            </section>
+            <section id="sponsors">
+                 <div  class=" margin-bottom text-center">
+                    <h2>Sponsors</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2 col-sm-offset-2 text-center">
+                        <img src="http://www.trabol.com/assetsweb/paytm.png" alt="" class="img-responsive image-sponsors center-block">
+                        
+                    </div>
+
+                    <div class="col-sm-2 text-center">
+                        <img src="http://pngimg.com/uploads/cocacola/cocacola_PNG14.png" alt="" class="img-responsive image-sponsors i center-block">
+                       
+                    </div>
+
+                    <div class="col-sm-2 text-center">
+                        <img src="https://www.seeklogo.net/wp-content/uploads/2016/07/GoDaddy-logo-png.png" alt="" class="img-responsive image-sponsors center-block">
+                        
+                    </div>
+
+                    <div class="col-sm-2 col-sm-offset-right-2 text-center">
+                        <img src="http://www.pngmart.com/files/4/Nike-Logo-Transparent-Background.png" alt="" class="img-responsive image-sponsors center-block">
+                      
+                    </div>
+                </div>
+                <div class="row">
+                <div class="col-sm-2 col-sm-offset-4 text center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Logo_2013_Google.png" class="img-responsive image-sponsors center-block">
+                </div>
+                <div class="col-sm-2 col-sm-offset-right-4">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2000px-Microsoft_logo_%282012%29.svg.png" class="img-responsive image-sponsors center-block">
+                    </div>
+                </div>
+                
+            </section>
+            <hr width="65%">
+            <section id="FAQ">
+               
+                <div class="container-fluid"> 
+                    <div class="row">
+                        <div class="col-sm-8 col-md-offset-2 paper about-text">
+                            <div>
+                                <h2 class="text-center">FAQs</h2>
+                            
+                            <h3>What it is </h3>
+                            <p>The world's biggest summit for MBA Students 
+                            </p>
+                            <h3>Objective</h3>
+                            <p>
+                               To help MBA students learn from the best professors and also interact with the corporate leaders 
+
+                            </p>
+                            <h3>Why it is being organized</h3>
+                            <p>B- school students need industry insights & exposure to the best professors in order to become business leaders in the near future. 
+</p>
+                        </div>
+                        </div>
                 </div>
             </section>
-            <section id="contact">
+
+            <section id="contact" style="margin-top: 20px;">
                 <div class="text-center">
                     <h2>Contact</h2>
                 </div>
@@ -259,18 +335,17 @@
                     <h4>Phone:9999999999</h4></br>
                 </div>
             </section>
-
+            
             <script src="./js/script.js"></script>
-        </body>
-        <footer class="container-fluid text-center">
-         <div class="row">
-            <div class="col-sm-4 col-sm-offset-4">
-                <a href=""><img class="social" src="./images/icons/twitter.svg"></a> 
-                <a href=""><img class="social" src="./images/icons/facebook.svg"></a> 
-                <a href=""><img class="social" src="./images/icons/googleplus.svg"></a> 
-                <a href=""><img class="social" src="./images/icons/medium.svg"></a> 
-            </div>
-        </div>
-            <p>&copy; Biz Summit 2018</p>
-        </footer>
-    </html>
+       
+       
+
+<div class="footer text-center" id="con">
+  <h3>Contact Us</h3>
+                <a href="https://www.facebook.com/bootsnipp" target="_blank"><i class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href="https://twitter.com/bootsnipp" target="_blank"><i class="fa fa-twitter-square fa-3x social"></i></a>
+                <a href="https://plus.google.com/+Bootsnipp-page" target="_blank"><i class="fa fa-google-plus-square fa-3x social"></i></a>
+                <a href="mailto:bootsnipp@gmail.com" target="_blank"><i class="fa fa-envelope-square fa-3x social"></i></a>
+                <br><br>
+  <p>&copy; Biz Summit 2018</p>
+</div> </body></html>

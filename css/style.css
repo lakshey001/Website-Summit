@@ -7,6 +7,18 @@
 div{
       font-family: 'lato', arial;
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #555;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fff;
+}
 body{
     /*background: currentColor;*/
     overflow-x: hidden;
@@ -18,11 +30,11 @@ body{
     margin-bottom: 10px;
 
 }
-/* @font-face {
+ @font-face {
     font-family: "BEBAS";
     src: url("../font/BEBAS.ttf");
 }
-*/
+
 
 .navbar{
     margin-bottom: 0;
@@ -35,15 +47,32 @@ body{
     text-transform: uppercase;
 
 }
+.img-high-3{
+height: 200px;
+width: 200px;
+}
+.img-high{
+    
+    width: 160px;
+    height: auto;
+    height: 180px;
+}
+.box{box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.75);
+}
+.padding-high{
+    padding-top: 10px;
+}
 .nav-small{
-    background: rgba(255,255,255,1);
+    background: black;
     min-height: 0;
     max-height: 65px;
     padding-top: 5px;
     box-shadow: -3px -1px 3px 0px black;
+    font-size: 1em;
 }
+
 #home{
-    background: url('../images/header.jpg');
+    background: url('../images/header.jpg') ;
     background-image: contain;
     display: flex;
     justify-content: center;
@@ -51,6 +80,30 @@ body{
     margin-top: 0;
     color: white;
     min-height: 768px;
+}
+.back-high{
+   
+     background-size:100%;
+      -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+              
+                background-size: 100% 100%;
+  background: 
+     
+    linear-gradient(
+      rgba(0, 47, 75, 0.9), 
+      rgba(220, 66, 37, 0.9)
+    ),
+    
+    url("../images/high-back.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#highlights{
+    
 }
 
 section{
@@ -104,6 +157,7 @@ section{
 }
 .head{
     font-size: 50px;
+    font-family: 'BEBAS', arial;
 }
 .head-3{
 
@@ -120,6 +174,7 @@ section{
     margin-top: -5px;
     font-size: 30px;
     font-weight: 500;
+    font-family: 'BEBAS', arial;
 }
 .margin-bottom-20{
     margin-bottom: 20px;
@@ -144,6 +199,14 @@ section{
     margin-top: 0;
     background: rgba(228, 228, 228, 0.55);
 }
+#FAQ{
+    margin-top: 0;
+    background: rgba(228, 228, 228, 0.55);
+}
+.logo{
+    height: 30px;
+    width: 40px;
+}
 h2{
     margin-top: 0;
     padding-top: 50px;
@@ -159,8 +222,29 @@ h2{
     line-height: 2;
     margin-bottom: 50px;
 }
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.footer p{
+    color: #fff;
+}
+.footer h3 {
+    color: #ddd;
+}
+.footer a {
+    color: #eee;
+}
+.footer a:hover {
+    color: #fff;
+}
 #schedule{
-    margin-top: 50px;
   /*  background: #5472ef;*/
    background: linear-gradient(to right,#5C258D,#4389A2); 
     color: white;
@@ -183,11 +267,39 @@ h2{
 #register{
     background:rgba(242, 242, 245, 0.57);
 }
+#contact{
+    margin-top: -30px;
+     background:rgba(242, 242, 245, 0.57);
+}
+#sponsors{
+
+}
+.image-sponsors{
+
+-webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.image-sponsors:hover {
+   -ms-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+   
+}
+.margin-bottom{
+    margin-bottom: 50px;
+}
 
 @media (max-width: 600px) {
     .head{
        font-size: 21px;
     }
+    .margin-bottom{
+    margin-bottom: 0;
+}
     .date{
         font-size: 18px;
     }
@@ -195,6 +307,9 @@ h2{
 
     font-size: 17px;
     margin-top: -5px;
+}
+.nav-small{
+    height: 70px;
 }
   .head-4{
 
@@ -204,6 +319,10 @@ h2{
 }
 .data{
     font-size: 13px;
+}
+.image-sponsors{
+
+padding: 10%;
 }
    
 } 
