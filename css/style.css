@@ -72,8 +72,10 @@ width: 200px;
 }
 
 #home{
-    background: url('../images/header.jpg') ;
-    background-image: contain;
+    background-image:  url('../images/header.jpg') ;
+    
+    background-color: #00000082;
+    background-blend-mode: multiply;
     display: flex;
     justify-content: center;
     align-items: center;
