@@ -1,6 +1,15 @@
 $(document).scroll(function(){
-  $(".navbar").toggleClass("nav-small",$(this).scrollTop()>100);
+  $(".navbar").toggleClass("navi",$(this).scrollTop()>100);
+  
+   $(".img-1").toggleClass("img-2",$(this).scrollTop()>650);
 });
+$(document).scroll(function(){
+
+   $(".navbar").toggleClass("nav-small",$(this).scrollTop()>650);
+  
+});
+
+
 
 function smoothScroll(e){
     e.preventDefault();

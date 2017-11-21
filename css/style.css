@@ -7,13 +7,26 @@
 div{
       font-family: 'lato', arial;
 }
+.img-1{
+    height: 80px;
+    width: 95px;
+      margin-top: -25px;
+     margin-left: -5px;
+}
+
+.img-2{
+    height: 68px;
+    width: 75px;
+     
+     margin-left: -5px;
+}
 
 ::-webkit-scrollbar {
     width: 5px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #555;
+    background-color: black;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -30,6 +43,12 @@ body{
     margin-bottom: 10px;
 
 }
+.about-text{
+    line-height: 19px;
+    letter-spacing: 0.5px;
+
+}
+
  @font-face {
     font-family: "BEBAS";
     src: url("../font/BEBAS.ttf");
@@ -45,7 +64,10 @@ body{
     padding-top: 20px;
     color: white;
     text-transform: uppercase;
-
+    font-weight:600;
+}
+.navi{
+   background: rgba(0, 0, 0, 0.8);
 }
 .img-high-3{
 height: 200px;
@@ -69,6 +91,8 @@ width: 200px;
     padding-top: 5px;
     box-shadow: -3px -1px 3px 0px black;
     font-size: 1em;
+    display: block;
+    padding-top: 10px;
 }
 
 #home{
@@ -118,6 +142,9 @@ section{
 .register{
     float: none;
     margin:0 auto;
+}
+.nav>li>a{
+    padding: 10px 8px 10px 12px;
 }
 #register{
     margin-bottom: 40px;
