@@ -64,11 +64,10 @@ body{
     padding-top: 20px;
     color: white;
     text-transform: uppercase;
-
-
+    font-weight:600;
 }
 .navi{
-    display: none;
+   background: rgba(0, 0, 0, 0.8);
 }
 .img-high-3{
 height: 200px;
@@ -93,6 +92,7 @@ width: 200px;
     box-shadow: -3px -1px 3px 0px black;
     font-size: 1em;
     display: block;
+    padding-top: 10px;
 }
 
 #home{
