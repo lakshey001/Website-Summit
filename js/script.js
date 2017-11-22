@@ -29,5 +29,29 @@ function smoothScroll(e){
 }
 
 
-$('#mynav a').on('click',smoothScroll);
-$(".navbar-brand a").on('click',smoothScroll);
+$(document).ready(function(){
+    $("#img-1").hover(function(){
+        $(this).css("filter", "invert(0)");
+        }, function(){
+        $(this).css("filter", " brightness(0) invert(1)");
+    });
+});
+$(document).ready(function(){
+    $("#img-2").hover(function(){
+        $(this).css("filter", "invert(0)");
+        }, function(){
+        $(this).css("filter", " brightness(0) invert(1)");
+    });
+});
+$(document).ready(function(){
+    $("#img-3").hover(function(){
+        $(this).css("filter", "invert(0)");
+        }, function(){
+        $(this).css("filter", " brightness(0) invert(1)");
+    });
+});
+
+
+
+  
+ 
