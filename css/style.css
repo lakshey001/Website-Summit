@@ -67,7 +67,7 @@ body{
     font-weight:600;
 }
 .navi{
-   background: rgba(0, 0, 0, 0.8);
+   background: rgba(6, 10, 40,0.8);
 }
 .img-high-3{
 height: 200px;
@@ -85,7 +85,7 @@ width: 200px;
     padding-top: 10px;
 }
 .nav-small{
-    background: black;
+    background: #060a28;
     min-height: 0;
     max-height: 65px;
     padding-top: 5px;
@@ -255,7 +255,7 @@ h2{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #333;
+    background-color:#060a28;
     color: black;
     text-align: center;
     padding: 10px 0;
