@@ -264,7 +264,7 @@ h2{
 .footer p{
     color: #fff;
 }
-.footer h3,h4,h5 {
+.footer-heading {
     color: #ddd;
 }
 .footer a {
@@ -319,6 +319,12 @@ h2{
     transform: scale(1.2);
    
 }
+.animation{
+     filter: brightness(0) invert(1);
+     height: 50px;
+      width: auto;
+      margin-right: 35px;
+}
 .margin-bottom{
     margin-bottom: 50px;
 }
@@ -327,11 +333,18 @@ h2{
     .head{
        font-size: 21px;
     }
+    .animation{
+     filter: brightness(0) invert(1);
+     height: 30px;
+      width: auto;
+      margin-right:5px;
+}
     .margin-bottom{
     margin-bottom: 0;
 }
     .date{
         font-size: 18px;
+       
     }
     .head-3{
 
@@ -356,3 +369,4 @@ padding: 10%;
 }
    
 } 
+
