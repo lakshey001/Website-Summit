@@ -4,6 +4,15 @@
     }
    
 }    
+.ani {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ;
+          transition:         transform .8s ;
+}
+.ani:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
 div{
       font-family: 'lato', arial;
 }
